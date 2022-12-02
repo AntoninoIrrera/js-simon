@@ -9,11 +9,11 @@ let conteggio = 0;
 bottone.addEventListener("click", function(){
 
         
-    bottone.innerHTML = `# ${conteggio}`;
     
     
     if(conteggio < 10){
         conteggio++;
+        bottone.innerHTML = `# ${conteggio}`;
         
     }else{
         bottone.classList.add("inattivo");
